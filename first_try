@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title> Hello world </title>
+	</head>
+
+	<body>
+		<h1>Hello world</h1>
+		<p> This is my first paragraph</p>
+		<hr/>
+		<p>
+		start with {html} [everything] {/html}.<br/>
+		Then {body}...{/body}. Inside a body: <br/>
+		-Indented: {head} (on top of page)<br/>
+		-For title: {h1}(biggest) {h2}(smaller) {h...}.	<br/>
+		-{p} for paragraph<br/>
+		-for a new line close the old line with {br/}
+		images = {img src = [filename].[filetype]}. path can be relative or absolute. see code images below<br/>
+		</p>
+		
+		<img src="C:\Users\micha\OneDrive\Afbeeldingen\kayak\1.jpg"/ width=600>
+		<img src = "1.jpg" width= 60%/>
+	</body>
+
+</html>
